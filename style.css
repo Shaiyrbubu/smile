@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 117px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+#header {
+  /* position: absolute; */
+  width: 100%;
+  padding: 30px 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  color: #252525;
+  font-family: Nexa Bold;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.nav-list {
+  text-decoration: none;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  text-decoration: none;
+  margin-left: 200px;
+  color: #303030;
+  font-family: Now;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  list-style: none;
+}
+.nav-list button {
+  margin-left: 300px;
+  color: #fff;
+  text-align: center;
+  font-family: Now;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 126px;
+  height: 43px;
+  border-radius: 5px;
+  background: #ff5d24;
+  border: none;
+}
+#main {
+  position: relative;
+}
+
+.smile content2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
+}
+.text h1 {
+  color: #252525;
+  font-family: Nexa Bold;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 15px;
+}
+.text h1:hover {
+  animation-name: h1;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.text h1 span {
+  color: #ff5d24;
+  font-family: Nexa Bold;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.text p {
+  color: #252525;
+  font-family: Now;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 875px;
+  margin-top: -75px;
+}
+.smile {
+  margin-left: 230px;
+  margin-top: 100px;
+}
+.fon {
+  margin-left: 1110px;
+  margin-top: -500px;
+}
+.bala {
+  margin-left: 1180px;
+  margin-top: -415px;
+}
+.krug {
+  margin-left: 1275px;
+  margin-top: -30px;
+}
+.group {
+  margin-left: 1296px;
+  margin-top: -45px;
+}
+.vol h3 {
+  color: #ff5d24;
+  font-family: Nexa Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 1215px;
+  /* margin-top: 0px; */
+}
+/* [data-aos="content2"] {
+  transform: translateY(100px);
+  opacity: 0;
+  transition-property: transform;
+
+  &.aos-animate {
+    opacity: 1;
+  }
+}
+[data-aos="content2"].aos-animate {
+  transform: translateY(0px);
+} */
+.tochka {
+  width: 113px;
+  height: 113px;
+  flex-shrink: 0;
+  margin-left: 350px;
+  margin-top: 250px;
+}
+.fon2 {
+  margin-left: 350px;
+  margin-top: -430px;
+  border-radius: 15px;
+  width: 479px;
+  height: 260px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 28px 18px 68px 0px rgba(132, 132, 132, 0.16);
+}
+.pig {
+  margin-left: 420px;
+  margin-top: -180px;
+}
+.krug2 {
+  margin-left: 520px;
+  margin-top: -30px;
+}
+.gal {
+  margin-left: 542px;
+  margin-top: -43px;
+}
+.sp {
+  margin-left: 500px;
+  margin-top: -4px;
+  padding-bottom: -20px;
+  color: #ff5d24;
+  font-family: Nexa Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.da {
+  /* margin-left: 80px; */
+  /* display: flex; */
+  justify-content: space-between;
+
+  width: 1440px;
+  height: 5377px;
+}
+/* .da date {
+  display: flex;
+  justify-content: space-between;
+  gap: 50;
+} */
+.date h4 {
+  color: #252525;
+  font-family: Nexa Bold;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.date p {
+  color: #252525;
+  font-family: Now;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.date h4 span {
+  color: #ff5d24;
+}
+.line {
+  margin-left: 1100px;
+  margin-top: -2000px;
+}
+.line2 {
+  margin-left: 1900px;
+  margin-top: -2000px;
+}
+.vector {
+  margin-left: 1400px;
+  position: relative;
+  margin-top: -1650px;
+}
